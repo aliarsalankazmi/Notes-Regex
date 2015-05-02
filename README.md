@@ -21,7 +21,7 @@ $
 {
 ```
 
-Using these literally in regex requires escaping with a backslash.
+Using these literally in regex requires escaping with a backslash. This is **not** the case when using these in character classes - then the only metacharacters are `] \ ^ -`. In the latter case, escaping using a backslash is required again,
 
 ## Character classes or sets
 A character class is made by enclosing characters with [], and matches only one of the several characters. 
